@@ -1,0 +1,88 @@
+header {
+    min-height: 500px;
+    margin-bottom: 25px;
+    background: url('../images/coffee01.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+header h3 {
+    margin-top: -25px;
+    margin-left: 50px;
+}
+
+h1 {
+    margin-left: -150px;
+    padding-top: 150px;
+    font-size: 800%;
+}
+
+/* ABOUT IMAGES */
+.left-pic {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.right-pic {
+    margin-top: 100px;
+    margin-left: -100px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.quote {
+    width: 33%;
+    margin: 0 auto;
+    margin-right: 161px;
+    padding: 15px;
+    color: #efbea6;
+    font-style: italic;
+    border: 1px solid #e18169;
+    border-radius: 13px 0 0 0;
+}
+
+.right-column-padded p {
+    padding-right: 100px;
+}
+
+/* REVIEWS */
+
+.card-img-profile {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: -50px;
+    border: 5px solid #e2e2e2;
+    border-radius: 100%;
+}
+
+/* FORM */
+.input-group-prepend {
+    padding: 5px;
+    border: 1px solid rgba(25, 25, 25, 0.15);
+    border-radius: 15px 0 0 5%;
+}
+
+/* FOOTER */
+#footer-links .list-group-item {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(25, 25, 25, 0.125);
+}
+
+/* CUSTOM */
+.width-100 {
+    max-width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 992px) {
+    /* Resize Right About Column */
+    .right-pic {
+        margin-left: 0;
+    }
+
+    .right-column-padded p {
+        padding-right: 0;
+    }
+    
+  }

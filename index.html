@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Melissa Isaacson">
+        <meta name="description" content="Bootstrap site assignment.">
+        <meta name="keywords" content="bootstrap, assignment, coffee">
+        <title>Coffee</title>
+        <!-- STYLESHEETS -->
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link href="./css/all.min.css" rel="stylesheet">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
+        <!-- JAVASCRIPT -->
+        <script src="./js/jquery-3.5.1.min.js"></script>
+        <script src="./js/bootstrap.js"></script>
+    </head>
+    <body>
+        <header class="container-fluid border-bottom content">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand" href="#">Coffee</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Hero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#coffee-types">Types of Coffee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#commentform">Comment</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="text-center text-uppercase">Coffee</h1>
+            <h3 class="text-center">javalicious.</h3>
+        </header>
+        <main class="container">
+            <!-- JUMBOTRON AND INTRO TEXT -->
+            <section id="hero" class="jumbotron">
+                <h2 class="display-5">C:\COFFEE.POT missing (A)bort (R)etry (F)all asleep?</h2>
+                <p>Coffee is a <a href="https://en.wikipedia.org/wiki/Coffee_preparation" target="_blank">brewed</a> <a href="https://en.wikipedia.org/wiki/Drink" target="_blank">drink</a> prepared from roasted <a href="https://en.wikipedia.org/wiki/Coffee_bean" target="_blank">coffee beans</a>, the seeds of <a href="https://en.wikipedia.org/wiki/Epigynous_berries" target="_blank">berries</a> from certain <a class="font-italic" href="https://en.wikipedia.org/wiki/Coffea" target="_blank">Coffea</a> species. When coffee berries turn from green to bright red in color – indicating ripeness – they are picked, processed, and dried. Dried coffee seeds (referred to as "beans") are <a href="https://en.wikipedia.org/wiki/Coffee_roasting" target="_blank">roasted</a> to varying degrees, depending on the desired flavor. Roasted beans are <a href="https://en.wikipedia.org/wiki/Coffee_preparation" target="_blank">ground and then brewed</a> with near-boiling water to produce the beverage known as coffee.</p>
+                <hr class="my-4">
+                <p>Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and can be prepared and presented in a variety of ways (e.g., espresso, French press, caffè latte, or already-brewed canned coffee). It is usually served hot, although chilled or iced coffee is common. Sugar, sugar substitutes, milk or cream are often used to lessen the bitter taste.</p>
+            </section>
+            <!-- ABOUT COLUMNS -->
+            <section id="about" class="row">
+                <div class="col-lg">
+                    <img src="./images/coffee05.jpg" class="left-pic width-100" alt="Coffee">
+                    <blockquote class="quote">I’m going to start measuring the complexity of coding tasks in coffee cups. “This was a five-espresso algorithm."</blockquote>
+                    <img src="./images/coffee06.jpg" class="width-100 mt-5" alt="coffee">
+                </div>
+                <div class="col-lg right-column-padded text-justify">
+                    <img src="./images/coffee03.jpg" class="right-pic width-100 mb-5" alt="Coffee">
+                    <p>Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a <a href="https://en.wikipedia.org/wiki/Stimulant" target="_blank">stimulant</a> in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.</p>
+
+                    <p>The earliest credible evidence of coffee-drinking as the modern beverage appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines where coffee seeds were first roasted and brewed in a manner similar to how it is now prepared for drinking. The Yemenis procured the coffee beans from the Ethiopian Highlands via coastal Somali intermediaries, and began cultivation. By the 16th century, the drink had reached the rest of the Middle East and North Africa, later spreading to Europe.</p>
+
+                    <p>The two most commonly grown coffee bean types are C. arabica and C. robusta. Coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, the Indian subcontinent, and Africa. As of 2018, Brazil was the leading grower of coffee beans, producing 35% of the world total. Coffee is a major export commodity as the leading legal agricultural export for numerous countries. It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is one of the most traded agricultural commodities in the world. The way developed countries trade coffee with developing nations has been criticised, as well as the impact on the environment with regards to the clearing of land for coffee-growing and water use. Consequently, the markets for fair trade and organic coffee are expanding.</p>
+                </div>
+            </section>                
+            <div class="alert alert-warning text-center font-italic" role="alert">
+                The most dangerous drinking game is seeing how long I can go without coffee.
+            </div>
+            <!-- COFFEE TYPES -->
+            <section id="coffee-types" class="card-deck mb-5">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="./images/coffee12.jpg" class="card-img-top" alt="coffee">
+                        <div class="card-body">
+                        <h5 class="card-title">Espresso</h5>
+                        <p class="card-text">Espresso is a form of concentrated coffee that is usually served as shots. All espresso based drinks have three common ingredients: espresso, steamed milk and foam. The process of making espresso is called pulling a shot in which hot water is pressurized and poured over finely grounded coffee beans. All espresso have cream in them which is the froth over it in brownish-red color and gives the rich flavor and smell to the coffee.</p>
+                        <p class="card-text text-muted"><a class="btn btn-primary" id="espressoTrigger" href="#" data-toggle="modal" data-target="#espressoModal">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="./images/coffee13.jpg" class="card-img-top" alt="coffee">
+                        <div class="card-body">
+                        <h5 class="card-title">Cafe Latte</h5>
+                        <p class="card-text">Cafe latte is made with espresso and steamed milk of which, one third is espresso and two third is steamed milk and also consists of at least a centimeter of foam. It is an Italian coffee-based drink that is now enjoyed by people worldwide and is similar to the French drink cafe au lait. In Italian, cafe latte means coffee and milk, which defines the purpose of how it is prepared.</p>
+                        <p class="card-text text-muted"><a class="btn btn-primary" href="#" id="latteTrigger" data-toggle="modal" data-target="#latteModal">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="./images/coffee08.jpg" class="card-img-top" alt="coffee">
+                        <div class="card-body">
+                        <h5 class="card-title">Frappuccino</h5>
+                        <p class="card-text">Frappuccino is a signature drink of Starbucks but is now available in almost all local coffee shops. The essential ingredients in a frappuccino are ice, espresso, whole milk, and flavored syrup. It takes somewhere between 5 to 10 minutes to prepare it. The best part about this drink is that it is topped with a large and thick whipped cream, adding the right amount of sweetness to this drink.</p>
+                        <p class="card-text text-muted"><a class="btn btn-primary" href="#" id="frappuccinoTrigger" data-toggle="modal" data-target="#frappuccinoModal">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- REVIEWS -->
+            <section id="reviews">
+                <div class="card bg-light mb-5">
+                    <img class="card-img-profile" src="./images/person01.jpg" alt="profile image">
+                    <div class="card-body">
+                        <h5 class="text-info card-title text-center">Can't Wake Up Without It</h5>
+                        <p class="card-text">"Whether you call it joe, java, cuppa, liquid energy, or brew, if you are part of the 62% of Americans who drink coffee on a daily basis, that first morning cup sets the tone for the rest of your day. A good cup of coffee is a thing of beauty – hot but not scalding, slightly bitter without pucker, and wafting an aroma that draws even the deepest sleeper from his bed."</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-5">
+                    <img class="card-img-profile" src="./images/person02.jpg" alt="profile image">
+                    <div class="card-body">
+                        <h5 class="text-info card-title text-center">My Drink of Choice</h5>
+                        <p class="card-text">"All of these questions are enough enough to make you want to reach for … well, a cup of coffee. Luckily, we’ve performed the coffee research for you. We reviewed the best advice from top experts as well as feedback from coffee drinkers in general. The recommendations above and buying guide below will help simplify your quest for the best-tasting cup of home-brewed coffee."</p>
+                    </div>
+                </div>
+            </section>
+            <!-- FORM -->
+            <section id="commentform" class="row">
+                <div class="col-lg-4 d-flex align-items-center">
+                    <blockquote class="quote">
+                        I have measured out my life with coffee spoons.
+                    </blockquote>
+                </div>
+                <div class="col-lg-7">
+                    <h3>Contact Us</h3>
+                    <form class="mb-5">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend bg-warning">
+                                <span class="input-group-text">First and last name</span>
+                            </div>
+                            <input type="text" name="fName" aria-label="First name" class="form-control">
+                            <input type="text" name="lName" aria-label="Last name" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend bg-info">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                            </div>
+                            <input type="email" class="form-control" name="email" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend bg-primary">
+                                <span class="input-group-text">Comment</span>
+                            </div>
+                            <textarea class="form-control" aria-label="Comment"></textarea>
+                        </div>
+                        <p class="mt-4 text-center">
+                        <button type="submit" class="btn btn-success mr-2">Submit</button>
+                        <button type="reset" class="btn btn-danger">Clear</button>
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer id="footer" class="content-fluid bg-secondary">
+            <section id="footer-content" class="row">
+                <div class="col-md-4">
+                    <h2 class="display-5 pl-3">Contact Information</h2>
+                    <address class="pl-3">
+                        Melissa Isaacson<br>
+                        123 Street Lane NE<br>
+                        Cedar Rapids, IA 52402<br>
+                        Mobile: (319) 555-5555<br>
+                        Home: (319) 555-5555
+                    </address>
+                </div>
+                <div id="footer-links" class="col-md-4">
+                    <h2 class="display-5">Coffee Links</h2>
+                    <ul class="list-group">
+                        <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"><li class="list-group-item">Coffee at Wikipedia</li></a>
+                        <a href="https://www.azquotes.com/quotes/topics/coffee.html" target="_blank"><li class="list-group-item">Top 25 Coffee Quotes</li></a>
+                        <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/" target="_blank"><li class="list-group-item">The 12 Most Flavorful Coffee Brands Money Can Buy</li></a>
+                        <a href="https://www.tasteofhome.com/article/types-of-coffee/"><li class="list-group-item" target="_blank">Your Ultimate Guide to Different Types of Coffee</li></a>
+                        <a href="https://www.healthline.com/nutrition/top-13-evidence-based-health-benefits-of-coffee" target="_blank"><li class="list-group-item">13 Health Benefits of Coffee, Based on Science</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="display-5">Social Media</h2>
+                    <a class="mr-2" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-4x"></i></a>
+                    <a class="mr-2" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+                    <a class="mr-2" href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square fa-4x"></i></a>
+                    <a class="mr-2" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-4x"></i></a>
+                    <a class="mr-2" href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-square fa-4x"></i></a>
+                </div>
+            </section>
+        </footer>
+        <!-- MODAL: Espresso -->
+        <div class="modal fade" id="espressoModal" tabindex="-1" role="dialog" aria-labelledby="espressoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="espressoModalLabel">What Is Espresso?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Espresso is a full-flavored, concentrated form of coffee that is served in “shots.” It is made by forcing pressurized hot water through very finely ground coffee beans using an espresso machine. The result is a liquid stronger than coffee topped with a “crema,” a brown foam that forms when air bubbles combine with the soluble oils of fine-ground coffee and sits on top of a properly pulled shot of espresso. The crema adds to the rich flavor and lingering aftertaste of espresso.</p>
+                        <p>Espresso is made using the exact same plant as coffee, and is grown, processed, and roasted the same way. Any origin and roast coffee can be used to make espresso. The difference between coffee and espresso is in the grind and the treatment of the beans. The beans are ground to a finer consistency than coffee and firmly packed before hot water is forced through using an espresso machine. This results in a shot of espresso, which can be enjoyed as-is or used to make a long list of drinks including a cappuccino or Americano.</p>
+                        <p>Espresso has all of the same flavors of coffee but amplified—bitter, lightly sweet, acidic, toasty. The exact flavor profile will vary depending on the coffee roast. It has a thicker, creamier texture than coffee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL: Cafe Latte -->
+        <div class="modal fade" id="latteModal" tabindex="-1" role="dialog" aria-labelledby="latteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="latteModalLabel">What Is A Cafe Latte?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Caffè latte is a coffee-based drink made primarily from espresso and steamed milk. It consists of one-third espresso, two-thirds heated milk and about 1cm of foam. Depending on the skill of the barista, the foam can be poured in such a way to create a picture. Common pictures that appear in lattes are love hearts and ferns. Latte art is an interesting topic in itself.</p>
+                        <p>Traditionally the cafe latte is a ratio of two parts coffee and one part steamed milk (also called a Café Au Lait).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL: Frappuccino -->
+        <div class="modal fade" id="frappuccinoModal" tabindex="-1" role="dialog" aria-labelledby="frappuccinoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="frappuccinoModalLabel">What Is A Frappuccino?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Frappuccino is a portmanteau of "frappe", the New England name from the french "lait frappé" a milkshake with ice cream, and cappuccino, an espresso coffee with frothed milk. The word was coined and trademarked in Boston, Massachusetts. In the Boston area, a "frappe" (pronounced "frap" and spelled without the accent) is a thick milkshake with ice cream, derived from the French word frappé.</p>
+                        <p>The original Frappuccino drink was developed, named, trademarked and sold by George Howell's Eastern Massachusetts coffee shop chain, The Coffee Connection, and created by then-employee Andrew Frank. When Starbucks purchased The Coffee Connection in 1994, they also gained the rights to use, make, market, and sell the Frappuccino drink. The drink, with a different recipe, was introduced under the Starbucks name in 1995 and as of 2012, Starbucks had annual Frappuccino sales of over $2 billion.</p>
+                        <p>The recipe is derived from a fusion of various cold drinks, including the coffee frap (similar to iced coffee) and the frappe (blended ice cream, syrup, and milk), with the Italian cappuccino. The recipe today consists of brewed coffee, ice, and other additives such as milk, sugar, flavored syrups, and whipped cream.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SCRIPTS -->
+        <script>
+            // Scrolling class change on navbar via:
+            // https://codepen.io/_codemics/pen/PwEbYJ
+            $(document).ready(function() {
+			// grab the height of the header 
+		   	var stickyNavTop = $('header').height();
+		   	
+		   	// our function that decides weather the navigation bar should have "fixed" css position or not.
+		   	var stickyNav = function(){
+			    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+			         
+			    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+			    // otherwise change it back to relative
+			    if (scrollTop > stickyNavTop) { 
+			        $('.navbar').addClass(['bg-light']);
+			    } else {
+			        $('.navbar').removeClass('bg-light'); 
+			    }
+			};
+
+			stickyNav();
+			// and run it again every time you scroll
+			$(window).scroll(function() {
+				stickyNav();
+			});
+
+            // MODALS
+            $('#espressoModal').on('shown.bs.modal', function () {
+                $('#espressoTrigger').trigger('focus')
+            })
+		});
+        </script>
+    </body>
+</html>
